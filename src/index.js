@@ -12,6 +12,7 @@ const twitter = new Twitter()
 
 async function main() {
   logger.info('Starting bot!')
+  logger.info('File path: ' + filePath)
 
   startCron()
 }
